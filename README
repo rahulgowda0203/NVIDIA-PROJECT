@@ -1,0 +1,142 @@
+#  Eco Vision – GPU-Accelerated Waste Classification System
+
+## Overview
+
+Eco Vision is an AI-powered waste classification system designed to automatically identify and classify different types of waste using computer vision and deep learning. Powered by NVIDIA H200 GPU acceleration, the system delivers fast and accurate real-time predictions, enabling efficient waste segregation for smart recycling and sustainable waste management.
+
+---
+
+## Problem Statement
+
+Manual waste segregation is time-consuming, inconsistent, and prone to errors, leading to contamination of recyclable materials and increased landfill waste. Eco Vision addresses this challenge by using AI-based image classification to automatically categorize waste, improving recycling efficiency and reducing environmental impact.
+
+---
+
+## Features
+
+* Real-Time Waste Classification
+* GPU-Accelerated Deep Learning
+* Image Upload & Camera Support
+* Hybrid CNN + Vision Transformer Model
+* Data Augmentation & Image Preprocessing
+* TensorRT Optimized Inference
+* Interactive Web Dashboard
+* Modular AI Pipeline
+
+---
+
+## Project Structure
+
+```text
+Eco_Vision/
+│
+├── data/
+│   ├── train/
+│   ├── validation/
+│   └── test/
+│
+├── models/
+│   └── hybrid_model.py
+│
+├── training/
+│   └── train.py
+│
+├── inference/
+│   └── infer.py
+│
+├── app/
+│   ├── app.py
+│   ├── templates/
+│   ├── static/
+│   └── uploads/
+│
+├── checkpoints/
+│   └── best_model.pt
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Technologies Used
+
+* Python
+* PyTorch
+* CUDA
+* TensorRT
+* NVIDIA H200 GPU Cluster
+* Hugging Face Transformers
+* OpenCV
+* Streamlit / Flask
+* HTML
+* CSS
+* JavaScript
+
+---
+
+## AI Workflow
+
+Image Input
+
+↓
+
+Image Preprocessing
+
+↓
+
+Data Augmentation
+
+↓
+
+CNN Feature Extraction
+
+↓
+
+Vision Transformer Classification
+
+↓
+
+GPU-Accelerated Inference
+
+↓
+
+Waste Category Prediction
+
+↓
+
+Results Displayed on Dashboard
+
+---
+
+## Skills Demonstrated
+
+* Deep Learning
+* Computer Vision
+* Image Classification
+* GPU Computing
+* CUDA & TensorRT Optimization
+* PyTorch Development
+* AI Model Deployment
+* Web Application Development
+
+---
+
+## Future Enhancements
+
+* IoT-enabled Smart Bin Integration
+* Live Camera-Based Waste Detection
+* Edge Deployment on NVIDIA Jetson
+* Multilingual User Interface
+* Explainable AI Dashboard
+* Cloud-Based Monitoring & Analytics
+
+---
+
+## Author
+
+**Rahul A**
+
+B.Tech – CSE (AI & ML)
+
+Presidency University, Bengaluru
